@@ -1081,6 +1081,34 @@ body {
     font-size: 16px;
 }
 
+@media(max-width: 1310px) {
+    .platform .container .platform-title,
+    .platform .container .platform-title-2{
+        font-size: 45px;
+    }
+
+    .platform .container .image {
+        display: flex;
+        justify-content: center;
+        padding: 50px 50px;
+    }
+
+    .platform .content button {
+        margin-top: 100px;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 50px;
+    }
+
+    .platform .content .content-title {
+        margin-left: 50px;
+    }
+
+    .platform .content .check {
+        margin-left: 50px;
+    }
+}
+
 /* click */
 .click .container {
     width: 1200px;
@@ -1123,6 +1151,31 @@ body {
 .click .click-img {
     margin-left: 700px;
     margin-top: -400px;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:1310px) {
+    .click .click-img {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        padding: 50px 50px;
+    }
+
+    .click button {
+        margin-left: 50px;
+    }
+
+    .click h1 {
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .click .check {
+        margin-left: 50px;
+    }
 }
 
 /* Brand */
